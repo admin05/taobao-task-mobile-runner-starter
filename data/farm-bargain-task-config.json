@@ -1,0 +1,115 @@
+{
+  "activity": {
+    "tip": "全部运行完再看任务完成度\n---------------\n一个手机不能运行超过三个账号\n---------------\n点击开始任务自动运行",
+    "vvv": 1,
+    "shortcut": "https://www.icloud.com/shortcuts/62c6d943cc9b40c2b8c326f59e2a923d",
+    "list": [
+      "❤️开始任务❤️",
+      "618超级红包入口",
+      "交流·反馈 qq群"
+    ],
+    "mapping": {
+      "出了点问题，等更新": {
+        "ur": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com"
+      },
+      "点我下载农场捷径": {
+        "url": "https://www.icloud.com/shortcuts/718eff7025bc4a82b1e3b3ceba0d9aaa"
+      },
+      "其他捷径": {
+        "url": "https://www.kdocs.cn/l/cstbZKaJDo06"
+      },
+      "交流·反馈 qq群": {
+        "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1106371825&card_type=group&source=qrcode"
+      },
+      "喜欢CK模式点我": {
+        "url": "https://www.icloud.com/shortcuts/eb15d7c6e09647a59d4fe877bb9845d0"
+      },
+      "618超级红包入口": {
+        "url": "taobao://m.tb.cn/h.RaQaoQC"
+      },
+      "❤️开始任务❤️": {
+        "type": "task",
+        "key": [
+          "赚话费"
+        ]
+      }
+    },
+    "taskList": [
+      "赚话费"
+    ]
+  },
+  "taskData": {
+    "tag": "zhuanhuafei",
+    "common": {
+      "url": "https://raw.gitcode.com/jiutiao/TTTASK/raw/master/src/taobao/tbck/kanjia.txt"
+    },
+    "赚话费": {
+      "type": "task1",
+      "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "main": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "endMessage": "种树任务结束",
+      "task": {
+        "tag": "zhuanhuafei",
+        "scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
+        "baseurl": "://pages.tmall.com/wow/go/mx-growth/undertake/3d47a29c22504699886d09f9b7a5a067?disableNav=YES&deliveryId=占位参数1&sceneId=8078&hd_from_id=100085&implId=占位参数2",
+        "groupurl": "://pages.tmall.com/wow/go/mx-growth/undertake/3d47a29c22504699886d09f9b7a5a067?disableNav=YES&sceneId=8078&hd_from_id=100085",
+        "wait": 22,
+        "wait2": "",
+        "mainIndex": 3,
+        "param": {
+          "商品定位": [
+            "nike",
+            "anta",
+            "adidas",
+            "chanel",
+            "dior",
+            "biotherm",
+            "oppo"
+          ]
+        },
+        "before": [],
+        "item": [
+          "95414 other_0_3017014_95414_0",
+          "97717 other_0_3048003_97717_0",
+          "75704 cloudsail_0_125400501040001_75704_0",
+          "74349 other_0_2326014_74349_0",
+          "74348 other_0_2147001_74348_0",
+          "92689 other_0_2893019_92689_0"
+        ],
+        "easy": [
+          {
+            "wait": 20,
+            "url": "://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?sceneId=8078&q=iphone",
+            "ids": [
+              "94890",
+              "94785",
+              "98480"
+            ]
+          },
+          {
+            "wait": 15,
+            "url": "://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?sceneId=9651&q=iphone",
+            "ids": [
+              "98181",
+              "98136"
+            ]
+          }
+        ],
+        "groups": [
+          {
+            "wait": 1.5,
+            "url": "cloudsail_0_125400501040001_90978_5"
+          },
+          {
+            "wait": 1.5,
+            "url": "cloudsail_0_125400501040001_75882_2"
+          },
+          {
+            "wait": 1.5,
+            "url": "cloudsail_0_125400501040001_75481_2"
+          }
+        ]
+      }
+    }
+  }
+}

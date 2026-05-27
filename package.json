@@ -6,6 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "build": "node scripts/build_shortcut.js",
+    "build:all": "node scripts/build_shortcut.js all",
+    "build:farm-bargain": "node scripts/build_shortcut.js farm-bargain",
     "check": "node --check scripts/build_shortcut.js"
   },
   "engines": {
