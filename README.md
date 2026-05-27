@@ -6,6 +6,7 @@
 
 - `data/task-config.json`: 芭芭农场任务配置来源。
 - `data/farm-bargain-task-config.json`: 农场砍价任务配置来源。
+- `data/hhle-task-config.json`: 红包花花乐任务配置来源。
 - `data/jump-618-task-config.json`: 淘宝618跳一跳任务配置来源。
 - `data/kkl-task-config.json`: 红包砍砍乐任务配置来源。
 - `scripts/build_shortcut.js`: 根据本地配置将任务深链直接嵌入快捷指令 XML。
@@ -41,6 +42,12 @@ node scripts/build_shortcut.js farm-bargain
 node scripts/build_shortcut.js kkl
 ```
 
+重新生成红包花花乐本地固化 XML：
+
+```bash
+node scripts/build_shortcut.js hhle
+```
+
 重新生成淘宝618跳一跳本地固化 XML：
 
 ```bash
@@ -58,6 +65,7 @@ node scripts/build_shortcut.js all
 ```text
 shortcuts/baba-farm-mobile-runner.xml
 shortcuts/farm-bargain-mobile-runner.xml
+shortcuts/hhle-mobile-runner.xml
 shortcuts/jump-618-mobile-runner.xml
 shortcuts/kkl-mobile-runner.xml
 ```

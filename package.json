@@ -8,6 +8,7 @@
     "build": "node scripts/build_shortcut.js",
     "build:all": "node scripts/build_shortcut.js all",
     "build:farm-bargain": "node scripts/build_shortcut.js farm-bargain",
+    "build:hhle": "node scripts/build_shortcut.js hhle",
     "build:jump-618": "node scripts/build_shortcut.js jump-618",
     "build:kkl": "node scripts/build_shortcut.js kkl",
     "check": "node --check scripts/build_shortcut.js"

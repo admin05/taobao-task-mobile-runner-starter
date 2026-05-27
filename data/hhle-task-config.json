@@ -1,0 +1,157 @@
+{
+  "activity": {
+    "tip": "全部运行完再看任务完成度\n---------------\n一个手机不能运行超过三个账号\n---------------\n此任务推荐ck模式，比较完整，实时任务",
+    "vvv": 1,
+    "shortcut": "https://www.icloud.com/shortcuts/62c6d943cc9b40c2b8c326f59e2a923d",
+    "list": [
+      "❤️开始任务❤️",
+      "❤️ck模式点我下载此任务推荐",
+      "618超级红包入口",
+      "活动入口在淘宝的直播",
+      "也可以搜索【红包花花乐】进入",
+      "交流·反馈 qq群"
+    ],
+    "mapping": {
+      "❤️ck模式点我下载此任务推荐": {
+        "url": "https://www.icloud.com/shortcuts/9a30e1f587ae42119e6827d4dba30d19"
+      },
+      "活动入口在淘宝的直播": {
+        "url": "taobao://"
+      },
+      "也可以搜索【红包花花乐】进入": {
+        "url": "taobao://"
+      },
+      "点我下载农场捷径": {
+        "url": "https://www.icloud.com/shortcuts/718eff7025bc4a82b1e3b3ceba0d9aaa"
+      },
+      "其他捷径": {
+        "url": "https://www.kdocs.cn/l/cstbZKaJDo06"
+      },
+      "交流·反馈 qq群": {
+        "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1106371825&card_type=group&source=qrcode"
+      },
+      "喜欢CK模式点我": {
+        "url": "https://www.icloud.com/shortcuts/eb15d7c6e09647a59d4fe877bb9845d0"
+      },
+      "618超级红包入口": {
+        "url": "taobao://m.tb.cn/h.RaQaoQC"
+      },
+      "❤️开始任务❤️": {
+        "type": "task",
+        "key": [
+          "赚话费"
+        ]
+      }
+    },
+    "taskList": [
+      "赚话费"
+    ]
+  },
+  "taskData": {
+    "tag": "zhuanhuafei",
+    "common": {
+      "url": "https://raw.gitcode.com/jiutiao/TTTASK/raw/master/src/taobao/tbck/tbhuahuale.txt"
+    },
+    "赚话费": {
+      "type": "task1",
+      "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "main": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "endMessage": "种树任务结束",
+      "task": {
+        "tag": "zhuanhuafei",
+        "scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
+        "baseurl": "://h5.m.taobao.com/taolive/video.html?livesource=platformtask.liulan_huntou&needRecommend=true&sLaunch=0&sKeep=1&sModuleName=taolive&spm=&content=6f2f0b67c1d6c1dd27a0ff5c3cd557ed&forceRefresh=true&tl_sceneId=9647&tl_deliveryId=占位参数1&tl_action=commonLiveBrowse&targetAliveId=2319&needCompleteConsecutively=0",
+        "wait": 16,
+        "wait2": "",
+        "param": {
+          "商品定位": [
+            "nike",
+            "anta",
+            "adidas",
+            "chanel",
+            "dior",
+            "biotherm",
+            "oppo"
+          ]
+        },
+        "before": [],
+        "easy": [
+          {
+            "wait": 15,
+            "url": "://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?sceneId=9647&q=iphone",
+            "ids": [
+              "97864",
+              "97908",
+              "98122",
+              "98157",
+              "101109",
+              "98463"
+            ]
+          }
+        ],
+        "item": [
+          "101864",
+          "101864",
+          "101864",
+          "98113",
+          "98113",
+          "98113",
+          "98113",
+          "98113",
+          "98113",
+          "98113",
+          "98113",
+          "98113",
+          "98113",
+          "101342",
+          "101342",
+          "101342",
+          "97670",
+          "97670",
+          "97670",
+          "101865",
+          "101865",
+          "98670",
+          "98670",
+          "98670",
+          "98670",
+          "98670",
+          "97045",
+          "97045",
+          "97045",
+          "97667",
+          "97667",
+          "97667",
+          "101312",
+          "101312",
+          "101312",
+          "97665",
+          "97665",
+          "97665",
+          "101343",
+          "101343",
+          "97664",
+          "97664",
+          "97664",
+          "101344",
+          "101344",
+          "101345",
+          "101345",
+          "101346",
+          "101346",
+          "101348",
+          "101348",
+          "101350",
+          "101350",
+          "101349",
+          "101349",
+          "101315",
+          "101315",
+          "101315",
+          "101521",
+          "101521"
+        ]
+      }
+    }
+  }
+}
