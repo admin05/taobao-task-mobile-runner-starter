@@ -28,7 +28,7 @@
       <key>WFWorkflowActionParameters</key>
       <dict>
         <key>WFCommentActionText</key>
-        <string>按内置任务列表顺序逐个处理，每次打开一个深链后等待 22 秒。</string>
+        <string>按内置任务列表顺序逐个处理，每次打开一个深链后等待 33 秒。</string>
       </dict>
     </dict>
     <dict>
@@ -135,7 +135,7 @@
         <key>WFCommentActionText</key>
         <string>- Repeat with Each 使用上面的完整任务列表
 - Repeat Item 是当前要打开的深链
-- 每次打开后等待 22 秒，再继续下一项</string>
+- 每次打开后等待 33 秒，再继续下一项</string>
       </dict>
     </dict>
     <dict>
@@ -228,7 +228,7 @@
       <key>WFWorkflowActionParameters</key>
       <dict>
         <key>WFDelayTime</key>
-        <integer>22</integer>
+        <integer>33</integer>
       </dict>
     </dict>
     <dict>
@@ -272,7 +272,7 @@
   <key>WFWorkflowMinimumClientVersionString</key>
   <string>900</string>
   <key>WFWorkflowName</key>
-  <string>农场砍价本地入口</string>
+  <string>农场砍价</string>
   <key>WFWorkflowOutputContentItemClasses</key>
   <array/>
   <key>WFWorkflowTypes</key>

@@ -15,7 +15,7 @@ const TARGETS = {
   "farm-bargain": {
     configPath: path.join(ROOT, "data", "farm-bargain-task-config.json"),
     outputPath: path.join(ROOT, "shortcuts", "farm-bargain-mobile-runner.xml"),
-    workflowName: "农场砍价本地入口",
+    workflowName: "农场砍价",
     intro: "农场砍价本地任务入口：从第一个任务开始，按顺序逐个打开全部内置深链。",
   },
 };
