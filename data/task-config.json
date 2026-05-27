@@ -1,0 +1,92 @@
+{
+  "activity": {
+    "taskList": [
+      "赚话费",
+      "赚话费2"
+    ]
+  },
+  "taskData": {
+    "tag": "tjbb",
+    "赚话费": {
+      "type": "task1",
+      "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "main": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "endMessage": "任务结束",
+      "task": {
+        "tag": "tjbb",
+        "scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
+        "baseurl": "://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=占位参数1&sceneId=5387&q=iphone",
+        "wait": 20,
+        "wait2": "",
+        "param": {
+          "商品定位": [
+            "nike",
+            "anta",
+            "adidas",
+            "chanel",
+            "dior",
+            "biotherm",
+            "oppo"
+          ]
+        },
+        "before": [],
+        "item": [
+          "45310",
+          "99789",
+          "89750",
+          "77523",
+          "89639",
+          "89639",
+          "89639",
+          "89639",
+          "89639",
+          "78118",
+          "78118",
+          "78118",
+          "45308",
+          "85552",
+          "85151",
+          "45318",
+          "93729",
+          "89070",
+          "90342",
+          "81209",
+          "45290"
+        ]
+      }
+    },
+    "赚话费2": {
+      "type": "task1",
+      "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "main": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "endMessage": "任务结束",
+      "task": {
+        "tag": "tjbb",
+        "scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
+        "baseurl": "://pages.tmall.com/wow/go/mx-growth/undertake/3d47a29c22504699886d09f9b7a5a067?disableNav=YES&deliveryId=占位参数1&sceneId=5387&hd_from_id=100085&implId=占位参数2",
+        "wait": 20,
+        "wait2": "",
+        "param": {
+          "商品定位": [
+            "nike",
+            "anta",
+            "adidas",
+            "chanel",
+            "dior",
+            "biotherm",
+            "oppo"
+          ]
+        },
+        "before": [],
+        "item": [
+          "46315 cloudsail_1234_125400501040010_46315_0",
+          "46315 cloudsail_1234_125400501040010_46315_1",
+          "46315 cloudsail_1234_125400501040010_46315_2",
+          "46315 cloudsail_1234_125400501040010_46315_3",
+          "72407 count_1234_2240002_72407_0",
+          "90722 cloudsail_1234_125400501040003_90722_0"
+        ]
+      }
+    }
+  }
+}

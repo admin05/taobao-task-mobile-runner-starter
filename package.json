@@ -1,0 +1,14 @@
+{
+  "name": "baba-farm-mobile-runner-starter",
+  "version": "1.0.0",
+  "description": "Starter files for a local mobile Baba Farm runner.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node scripts/build_shortcut.js",
+    "check": "node --check scripts/build_shortcut.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
