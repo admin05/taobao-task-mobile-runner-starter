@@ -90,7 +90,7 @@ function buildShortcutXml(urls) {
       <key>WFWorkflowActionParameters</key>
       <dict>
         <key>WFCommentActionText</key>
-        <string>芭芭农场本地任务入口：从内置任务深链列表中随机选择并打开一个任务。</string>
+        <string>芭芭农场本地任务入口：从第一个任务开始，按顺序逐个打开全部内置深链。</string>
       </dict>
     </dict>
     <dict>
@@ -108,7 +108,7 @@ function buildShortcutXml(urls) {
       <key>WFWorkflowActionParameters</key>
       <dict>
         <key>WFCommentActionText</key>
-        <string>从固化的本地任务列表中选择一条深链，供下一步在淘宝中打开。</string>
+        <string>按内置任务列表顺序逐个处理，每次打开一个深链后等待 20 秒。</string>
       </dict>
     </dict>
     <dict>
@@ -126,11 +126,24 @@ ${urlListXml(urls)}
     </dict>
     <dict>
       <key>WFWorkflowActionIdentifier</key>
-      <string>is.workflow.actions.getitemfromlist</string>
+      <string>is.workflow.actions.comment</string>
       <key>WFWorkflowActionParameters</key>
       <dict>
-        <key>UUID</key>
-        <string>22222222-2222-4222-8222-222222222222</string>
+        <key>WFCommentActionText</key>
+        <string>- Repeat with Each 使用上面的完整任务列表
+- Repeat Item 是当前要打开的深链
+- 每次打开后等待 20 秒，再继续下一项</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>WFWorkflowActionIdentifier</key>
+      <string>is.workflow.actions.repeat.each</string>
+      <key>WFWorkflowActionParameters</key>
+      <dict>
+        <key>GroupingIdentifier</key>
+        <string>44444444-4444-4444-8444-444444444444</string>
+        <key>WFControlFlowMode</key>
+        <integer>0</integer>
         <key>WFInput</key>
         <dict>
           <key>Value</key>
@@ -145,8 +158,6 @@ ${urlListXml(urls)}
           <key>WFSerializationType</key>
           <string>WFTextTokenAttachment</string>
         </dict>
-        <key>WFItemSpecifier</key>
-        <string>Random Item</string>
       </dict>
     </dict>
     <dict>
@@ -155,7 +166,7 @@ ${urlListXml(urls)}
       <key>WFWorkflowActionParameters</key>
       <dict>
         <key>WFCommentActionText</key>
-        <string>把随机选出的文本深链转换成 URL，再交给打开 URL 动作。</string>
+        <string>把当前 Repeat Item 转成 URL，然后打开它。</string>
       </dict>
     </dict>
     <dict>
@@ -173,12 +184,10 @@ ${urlListXml(urls)}
             <dict>
               <key>{0, 1}</key>
               <dict>
-                <key>OutputName</key>
-                <string>Item from List</string>
-                <key>OutputUUID</key>
-                <string>22222222-2222-4222-8222-222222222222</string>
                 <key>Type</key>
-                <string>ActionOutput</string>
+                <string>Variable</string>
+                <key>VariableName</key>
+                <string>Repeat Item</string>
               </dict>
             </dict>
             <key>string</key>
@@ -208,6 +217,37 @@ ${urlListXml(urls)}
           <key>WFSerializationType</key>
           <string>WFTextTokenAttachment</string>
         </dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>WFWorkflowActionIdentifier</key>
+      <string>is.workflow.actions.delay</string>
+      <key>WFWorkflowActionParameters</key>
+      <dict>
+        <key>WFDelayTime</key>
+        <string>20</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>WFWorkflowActionIdentifier</key>
+      <string>is.workflow.actions.repeat.each</string>
+      <key>WFWorkflowActionParameters</key>
+      <dict>
+        <key>UUID</key>
+        <string>55555555-5555-4555-8555-555555555555</string>
+        <key>GroupingIdentifier</key>
+        <string>44444444-4444-4444-8444-444444444444</string>
+        <key>WFControlFlowMode</key>
+        <integer>2</integer>
+      </dict>
+    </dict>
+    <dict>
+      <key>WFWorkflowActionIdentifier</key>
+      <string>is.workflow.actions.comment</string>
+      <key>WFWorkflowActionParameters</key>
+      <dict>
+        <key>WFCommentActionText</key>
+        <string>全部本地任务深链已经按顺序打开完毕。</string>
       </dict>
     </dict>
   </array>
