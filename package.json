@@ -1,7 +1,7 @@
 {
-  "name": "baba-farm-mobile-runner-starter",
+  "name": "taobao-task-mobile-runner-starter",
   "version": "1.0.0",
-  "description": "Starter files for a local mobile Baba Farm runner.",
+  "description": "Starter files for local mobile Taobao task runners.",
   "private": true,
   "type": "commonjs",
   "scripts": {
