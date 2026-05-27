@@ -225,7 +225,7 @@ ${urlListXml(urls)}
       <key>WFWorkflowActionParameters</key>
       <dict>
         <key>WFDelayTime</key>
-        <string>20</string>
+        <integer>20</integer>
       </dict>
     </dict>
     <dict>
