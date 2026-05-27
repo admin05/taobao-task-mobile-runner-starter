@@ -18,6 +18,12 @@ const TARGETS = {
     workflowName: "农场砍价",
     intro: "农场砍价本地任务入口：从第一个任务开始，按顺序逐个打开全部内置深链。",
   },
+  "kkl": {
+    configPath: path.join(ROOT, "data", "kkl-task-config.json"),
+    outputPath: path.join(ROOT, "shortcuts", "kkl-mobile-runner.xml"),
+    workflowName: "红包砍砍乐",
+    intro: "红包砍砍乐本地任务入口：从第一个任务开始，按顺序逐个打开全部内置深链。",
+  },
 };
 
 function escapeXml(value) {
@@ -53,6 +59,10 @@ function buildTaskUrls(config) {
     const task = config.taskData?.[taskName]?.task;
     if (!task) continue;
     if (Number.isFinite(Number(task.wait))) waits.push(Number(task.wait));
+    for (const before of task.before || []) {
+      if (Number.isFinite(Number(before.wait))) waits.push(Number(before.wait));
+      if (before.url) urls.push(`taobao${replaceParams(before.url, "", task.param)}`);
+    }
     for (const item of task.item || []) {
       const baseUrl = replaceParams(task.baseurl, item, task.param);
       urls.push(`taobao${baseUrl}`);

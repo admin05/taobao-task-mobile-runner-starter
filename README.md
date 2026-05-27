@@ -6,6 +6,7 @@
 
 - `data/task-config.json`: 芭芭农场任务配置来源。
 - `data/farm-bargain-task-config.json`: 农场砍价任务配置来源。
+- `data/kkl-task-config.json`: 红包砍砍乐任务配置来源。
 - `scripts/build_shortcut.js`: 根据本地配置将任务深链直接嵌入快捷指令 XML。
 - `shortcuts/`: 生成的快捷指令 XML 和后续签名产物目录。
 
@@ -33,6 +34,12 @@ node scripts/build_shortcut.js
 node scripts/build_shortcut.js farm-bargain
 ```
 
+重新生成红包砍砍乐本地固化 XML：
+
+```bash
+node scripts/build_shortcut.js kkl
+```
+
 全部重新生成：
 
 ```bash
@@ -44,6 +51,7 @@ node scripts/build_shortcut.js all
 ```text
 shortcuts/baba-farm-mobile-runner.xml
 shortcuts/farm-bargain-mobile-runner.xml
+shortcuts/kkl-mobile-runner.xml
 ```
 
 校验并签名后即可导入手机。每次希望更新任务列表时，需要重新生成并重新导入新版快捷指令；手机运行时不会在线更新配置。

@@ -1,0 +1,85 @@
+{
+  "activity": {
+    "tip": "全部运行完再看任务完成度\n---------------\n一个手机不能运行超过三个账号\n---------------\n点击开始任务自动运行",
+    "vvv": 1,
+    "shortcut": "https://www.icloud.com/shortcuts/62c6d943cc9b40c2b8c326f59e2a923d",
+    "list": [
+      "❤️开始任务❤️",
+      "618超级红包入口",
+      "交流·反馈 qq群"
+    ],
+    "mapping": {
+      "点我下载农场捷径": {
+        "url": "https://www.icloud.com/shortcuts/718eff7025bc4a82b1e3b3ceba0d9aaa"
+      },
+      "其他捷径": {
+        "url": "https://www.kdocs.cn/l/cstbZKaJDo06"
+      },
+      "交流·反馈 qq群": {
+        "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1106371825&card_type=group&source=qrcode"
+      },
+      "喜欢CK模式点我": {
+        "url": "https://www.icloud.com/shortcuts/eb15d7c6e09647a59d4fe877bb9845d0"
+      },
+      "618超级红包入口": {
+        "url": "taobao://m.tb.cn/h.RaQaoQC"
+      },
+      "❤️开始任务❤️": {
+        "type": "task",
+        "key": [
+          "赚话费"
+        ]
+      }
+    },
+    "taskList": [
+      "赚话费"
+    ]
+  },
+  "taskData": {
+    "tag": "zhuanhuafei",
+    "common": {
+      "url": "https://raw.gitcode.com/jiutiao/TTTASK/raw/master/src/taobao/tbck/kkle.txt"
+    },
+    "赚话费": {
+      "type": "task1",
+      "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "main": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "endMessage": "种树任务结束",
+      "task": {
+        "tag": "zhuanhuafei",
+        "scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
+        "baseurl": "://pages.tmall.com/wow/go/mx-growth/undertake/3d47a29c22504699886d09f9b7a5a067?disableNav=YES&deliveryId=占位参数1&sceneId=9303&hd_from_id=100085&implId=占位参数2",
+        "wait": 22,
+        "wait2": "",
+        "param": {},
+        "before": [
+          {
+            "url": "://pages.tmall.com/wow/go/mx-growth/undertake/3d47a29c22504699886d09f9b7a5a067?disableNav=YES&deliveryId=91472&sceneId=9303&hd_from_id=100085&implId=other_1316_2326014_91472_0",
+            "wait": 5
+          },
+          {
+            "url": "://pages.tmall.com/wow/go/mx-growth/undertake/3d47a29c22504699886d09f9b7a5a067?disableNav=YES&deliveryId=91470&sceneId=9303&hd_from_id=100085&implId=other_1316_2147001_91470_0",
+            "wait": 23
+          },
+          {
+            "url": "://pages.tmall.com/wow/go/mx-growth/undertake/3d47a29c22504699886d09f9b7a5a067?disableNav=YES&deliveryId=91436&sceneId=9303&hd_from_id=100085&implId=count_1234_2580013_91436_0",
+            "wait": 23
+          }
+        ],
+        "item": [
+          "91474 cloudsail_1316_51022720_91474_0",
+          "91474 cloudsail_1316_51022720_91474_1",
+          "91474 cloudsail_1316_51022720_91474_2",
+          "91474 cloudsail_1316_51022720_91474_3",
+          "91474 cloudsail_1316_51022720_91474_4",
+          "91453 cloudsail_1316_125400501040003_91453_0",
+          "91453 cloudsail_1316_125400501040003_91453_1",
+          "91453 cloudsail_1316_125400501040003_91453_2",
+          "91453 cloudsail_1316_125400501040003_91453_3",
+          "91453 cloudsail_1316_125400501040003_91453_4",
+          "91453 cloudsail_1316_125400501040003_91453_5"
+        ]
+      }
+    }
+  }
+}
