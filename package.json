@@ -11,6 +11,7 @@
     "build:hhle": "node scripts/build_shortcut.js hhle",
     "build:jump-618": "node scripts/build_shortcut.js jump-618",
     "build:kkl": "node scripts/build_shortcut.js kkl",
+    "build:tjb": "node scripts/build_shortcut.js tjb",
     "check": "node --check scripts/build_shortcut.js"
   },
   "engines": {

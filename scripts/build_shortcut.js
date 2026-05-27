@@ -36,6 +36,12 @@ const TARGETS = {
     workflowName: "红包花花乐",
     intro: "红包花花乐本地任务入口：从第一个任务开始，按顺序逐个打开全部内置深链。",
   },
+  "tjb": {
+    configPath: path.join(ROOT, "data", "tjb-task-config.json"),
+    outputPath: path.join(ROOT, "shortcuts", "tjb-mobile-runner.xml"),
+    workflowName: "淘金币任务",
+    intro: "淘金币任务本地入口：从第一个任务开始，按顺序逐个打开全部内置深链。",
+  },
 };
 
 function escapeXml(value) {

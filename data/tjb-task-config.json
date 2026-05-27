@@ -1,0 +1,131 @@
+{
+  "activity": {
+    "tip": "全部运行完再看任务完成度\n---------------\n一个手机不能运行超过三个账号\n---------------\n点击开始任务自动运行",
+    "vvv": 1,
+    "shortcut": "https://www.icloud.com/shortcuts/62c6d943cc9b40c2b8c326f59e2a923d",
+    "list": [
+      "❤️开始任务❤️",
+      "618超级红包入口",
+      "交流·反馈 qq群"
+    ],
+    "mapping": {
+      "点我下载农场捷径": {
+        "url": "https://www.icloud.com/shortcuts/718eff7025bc4a82b1e3b3ceba0d9aaa"
+      },
+      "其他捷径": {
+        "url": "https://www.kdocs.cn/l/cstbZKaJDo06"
+      },
+      "交流·反馈 qq群": {
+        "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1106371825&card_type=group&source=qrcode"
+      },
+      "喜欢CK模式点我": {
+        "url": "https://www.icloud.com/shortcuts/eb15d7c6e09647a59d4fe877bb9845d0"
+      },
+      "618超级红包入口": {
+        "url": "taobao://m.tb.cn/h.RaQaoQC"
+      },
+      "❤️开始任务❤️": {
+        "type": "task",
+        "key": [
+          "赚话费"
+        ]
+      }
+    },
+    "taskList": [
+      "赚话费"
+    ]
+  },
+  "taskData": {
+    "tag": "zhuanhuafei",
+    "common": {
+      "url": "https://raw.gitcode.com/jiutiao/TTTASK/raw/master/src/taobao/test/tb.txt"
+    },
+    "赚话费": {
+      "type": "task1",
+      "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "main": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "endMessage": "种树任务结束",
+      "task": {
+        "tag": "zhuanhuafei",
+        "scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
+        "baseurl": "://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=占位参数1&sceneId=5365&hd_from_id=100089&q=iphone",
+        "wait": 17,
+        "wait2": "",
+        "param": {
+          "商品定位": [
+            "nike",
+            "anta",
+            "adidas",
+            "chanel",
+            "dior",
+            "biotherm",
+            "oppo"
+          ]
+        },
+        "before": [],
+        "item": [
+          "94049",
+          "94049",
+          "94049",
+          "94049",
+          "94049",
+          "94049",
+          "94049",
+          "94049",
+          "94049",
+          "94049",
+          "95180",
+          "95180",
+          "94046",
+          "94046",
+          "94046",
+          "94046",
+          "94046",
+          "95830",
+          "94970",
+          "98429",
+          "92801",
+          "92801",
+          "92801",
+          "92801",
+          "92801",
+          "65214",
+          "95175",
+          "94052",
+          "94052",
+          "94052",
+          "94052",
+          "94052",
+          "94053",
+          "94053",
+          "94053",
+          "94053",
+          "94053",
+          "94053",
+          "94053",
+          "94053",
+          "94053",
+          "94053",
+          "44755",
+          "44744",
+          "94054",
+          "94054",
+          "94054",
+          "85202",
+          "94442",
+          "89443",
+          "91112",
+          "59800",
+          "97999",
+          "76019",
+          "67396",
+          "94055",
+          "94055",
+          "94055",
+          "93698",
+          "94026"
+        ]
+      }
+    }
+  }
+}
