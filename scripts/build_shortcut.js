@@ -24,6 +24,12 @@ const TARGETS = {
     workflowName: "红包砍砍乐",
     intro: "红包砍砍乐本地任务入口：从第一个任务开始，按顺序逐个打开全部内置深链。",
   },
+  "jump-618": {
+    configPath: path.join(ROOT, "data", "jump-618-task-config.json"),
+    outputPath: path.join(ROOT, "shortcuts", "jump-618-mobile-runner.xml"),
+    workflowName: "淘宝618跳一跳",
+    intro: "淘宝618跳一跳本地任务入口：从第一个任务开始，按顺序逐个打开全部内置深链。",
+  },
 };
 
 function escapeXml(value) {

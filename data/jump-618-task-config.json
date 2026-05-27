@@ -1,0 +1,114 @@
+{
+  "activity": {
+    "tip": "全部运行完再看任务完成度\n---------------\n一个手机不能运行超过三个账号\n---------------\n点击开始任务自动运行",
+    "vvv": 1,
+    "shortcut": "https://www.icloud.com/shortcuts/8c366a3041bb4b77bb08a74600c34009",
+    "list": [
+      "❤️开始任务❤️",
+      "618超级红包入口",
+      "交流·反馈 qq群",
+      "喜欢CK模式点我",
+      "点我下载农场捷径",
+      "其他捷径下载"
+    ],
+    "mapping": {
+      "点我下载农场捷径": {
+        "url": "https://www.icloud.com/shortcuts/8e7d3ab19ef94cd38965d2f5c6484ddc"
+      },
+      "其他捷径下载": {
+        "url": "https://www.kdocs.cn/l/cstbZKaJDo06"
+      },
+      "交流·反馈 qq群": {
+        "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=884282432&card_type=group&source=qrcode"
+      },
+      "喜欢CK模式点我": {
+        "url": "https://www.icloud.com/shortcuts/eb15d7c6e09647a59d4fe877bb9845d0"
+      },
+      "618超级红包入口": {
+        "url": "taobao://m.tb.cn/h.RaQaoQC"
+      },
+      "❤️开始任务❤️": {
+        "type": "task",
+        "key": [
+          "赚话费"
+        ]
+      }
+    },
+    "taskList": [
+      "赚话费"
+    ]
+  },
+  "taskData": {
+    "tag": "zhuanhuafei",
+    "common": {
+      "url": "https://raw.gitcode.com/jiutiao/TTTASK/raw/master/src/taobao/test/tb.txt"
+    },
+    "赚话费": {
+      "type": "task1",
+      "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "main": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "endMessage": "种树任务结束",
+      "task": {
+        "tag": "zhuanhuafei",
+        "scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
+        "baseurl": "://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?deliveryId=占位参数1&sceneId=8917&q=iphone",
+        "wait": 15,
+        "wait2": "",
+        "param": {
+          "商品定位": [
+            "nike",
+            "anta",
+            "adidas",
+            "chanel",
+            "dior",
+            "biotherm",
+            "oppo"
+          ]
+        },
+        "before": [],
+        "item": [
+          "100340",
+          "100340",
+          "100340",
+          "100340",
+          "100340",
+          "100340",
+          "100340",
+          "100340",
+          "100340",
+          "100340",
+          "100453",
+          "100453",
+          "100453",
+          "100453",
+          "100453",
+          "100453",
+          "100453",
+          "100453",
+          "100453",
+          "100453",
+          "100454",
+          "100454",
+          "100454",
+          "100454",
+          "100454",
+          "100493",
+          "100493",
+          "100493",
+          "100493",
+          "100493",
+          "99889",
+          "99673",
+          "99888",
+          "99665",
+          "99658",
+          "99672",
+          "99666",
+          "99720",
+          "100447",
+          "99726"
+        ]
+      }
+    }
+  }
+}
