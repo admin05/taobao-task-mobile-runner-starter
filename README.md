@@ -80,6 +80,12 @@ shortcuts/tjb-mobile-runner.xml
 
 校验并签名后即可导入手机。每次希望更新任务列表时，需要重新生成并重新导入新版快捷指令；手机运行时不会在线更新配置。
 
+## 深链来源
+
+本项目芭芭农场任务深链最初来自下面这份金山文档里的快捷指令，后续整理为本地 `data/task-config.json` 并由生成脚本展开为可导入手机的快捷指令：
+
+- https://www.kdocs.cn/l/cstbZKaJDo06
+
 ## 隐私
 
 不要在配置、脚本、README 或提交记录中写入个人账号、Cookie、Bark key、手机号、邮箱或其他凭据。
